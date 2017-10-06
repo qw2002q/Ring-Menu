@@ -1,5 +1,6 @@
 li{
   list-style-type: none;
+  letter-spacing: 2px;
 }
 
 #bottom-positioner{
@@ -14,8 +15,8 @@ li{
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(./assets/images/atplus_green.png);
-  background-size: 40px 40px;
+  background-image: url(./assets/images/atplus_white.png);
+  background-size: 30px 30px;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -27,6 +28,8 @@ li{
 #button:hover{
   background-color: blue;
   background-position: center;
+  background-image: url(./assets/images/atplus_green.png);
+  background-size: 45px 45px;
   width: 70px;
   height: 70px;
   transform: translateX(-15px) translateY(-15px);
@@ -51,6 +54,11 @@ li{
   transform: translateY(-160px) translateX(-35px);
 }
 
+img{
+  vertical-align: middle;
+  transform: translateX(-2px);
+}
+
 .page{
   color: white;
   display: block;
@@ -66,6 +74,10 @@ li{
   color: rgb(10, 200, 120);
   display: inline-block;
   transform: translateX(-6px);
+}
+
+.like li{
+  transform: translateX(2px);
 }
 
 .mask{
@@ -116,7 +128,7 @@ li{
   border-radius: 50%;
   opacity: 0;
   background-color: #666666;
-  background-image: url(./assets/images/history.png);
+  background-image: url(./assets/images/message.png);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -172,7 +184,7 @@ li{
   border-radius: 50%;
   opacity: 0;
   background-color: #666666;
-  background-image: url(./assets/images/history.png);
+  background-image: url(./assets/images/signin.png);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
